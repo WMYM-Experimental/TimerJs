@@ -10,7 +10,7 @@
 .container {
   width: 100%;
   height: 100%;
-  margin: 15% auto;
+  margin: 10% auto;
   text-align: center;
 }
 
@@ -24,10 +24,13 @@
 #sec,
 #min,
 #mili {
-  font-size: 2.5em;
+  font-size: 3.5em;
 }
 .screen {
   margin: 50px 0;
+}
+.containerB {
+  background: #f4acb7;
 }
 .containerB__button {
   border: solid 3px #fff;
@@ -37,6 +40,7 @@
   padding: 20px 10px;
   width: 180px;
   margin: 10px;
+  margin-left: 10px;
   outline: none;
   border-radius: 50px;
   font-weight: 700;
@@ -44,4 +48,5 @@
 }
 .containerB__button:hover {
   background: #ffacc5;
+  transition: ease-in-out 1s;
 }

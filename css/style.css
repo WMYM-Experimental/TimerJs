@@ -2,15 +2,46 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  color: #fff;
+  background: #ffc4d6;
+  font-family: Roboto, sans-serif;
 }
 
-#canvas {
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 100%;
+.container {
   width: 100%;
-  background: radial-gradient(#34a0a4, #118ab2, #073b4c, #001219);
-  background: radial-gradient(#ea7af4, #b43e8f, #6200b3, #290628);
-  background: radial-gradient(#290020, #290628, #11001c, #000000, #000000);
+  height: 100%;
+  margin: 15% auto;
+  text-align: center;
+}
+
+.containerT__tittle {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 4.5em;
+  letter-spacing: 5px;
+}
+
+#sec,
+#min,
+#mili {
+  font-size: 2.5em;
+}
+.screen {
+  margin: 50px 0;
+}
+.containerB__button {
+  border: solid 3px #fff;
+  text-decoration: none;
+  cursor: pointer;
+  font-size: 1em;
+  padding: 20px 10px;
+  width: 180px;
+  margin: 10px;
+  outline: none;
+  border-radius: 50px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.containerB__button:hover {
+  background: #ffacc5;
 }

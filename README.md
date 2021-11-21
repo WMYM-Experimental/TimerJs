@@ -1,4 +1,8 @@
-# Timer Js
+# Pommodoro.js
 
-This is the initial timer
-i will be inproving this by the days
+This is a initial timer.
+
+I like the initial idea, but i wanna do this project something bigger.
+
+I will do a pommodoro app.
+I need to improve my studies habits and doing this i can practice web dev and improve those habits.

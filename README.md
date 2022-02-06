@@ -1,4 +1,4 @@
-# Pommodoro.js
+# Timer.js
 
 This is a initial timer.
 
